@@ -379,7 +379,7 @@ nav > .menu {
 
 .main4 {
   width: 100%;
-  height: 1000px;
+  height: 600px;
 }
 
 .fontbek3 {
@@ -438,4 +438,184 @@ nav > .menu {
 
 .qutibek1:hover {
   border: 2px solid red;
+}
+
+.chiziqlar1 {
+  width: 1152px;
+  height: 112px;
+  margin-left: 184px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.chap-chiziqlar {
+  width: 96px;
+  height: 24px;
+  margin-left: 40px;
+  margin-top: 56px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.chiziq1 {
+  width: 48px;
+  height: 16px;
+  border: 1px solid red;
+  border-radius: 50px;
+  background-color: #f53855;
+  margin-top: 3px;
+}
+
+.chiziq2 {
+  width: 16px;
+  height: 16px;
+  margin-top: 3px;
+  background-color: gray;
+  border-radius: 50px;
+}
+
+.ong-chiziqlar {
+  width: 144px;
+  height: 56px;
+  margin-top: 56px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.chiz1 {
+  width: 56px;
+  height: 56px;
+  border: 1px solid red;
+  border-radius: 50px;
+  
+}
+
+.chiz2 {
+  width: 56px;
+  height: 56px;
+  border: 1px solid red;
+  border-radius: 50px;
+}
+
+.chiz1:hover {
+  background-color: #f53855;
+  transition: 1s;
+}
+
+.chiz2:hover {
+  background-color: #f53855;
+  transition: 1s;
+}
+
+footer {
+  text-align: center;
+  padding: 60px 72px;
+}
+
+.footer {
+  width: 1296px;
+  height: 279px;
+  margin: auto;
+
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  width: 1296px;
+  height: 48px;
+  margin-bottom: 60px;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  width: 1296px;
+  height: 171px;
+}
+
+i {
+  font-size: 30px;
+  border-radius: 50%;
+  padding: 5px 10px 5px 5px;
+}
+
+.footer-top-car {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-top-address {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-top-email {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-top-phone {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+/* ========================================================== */
+/* ========================================================== */
+/* ========================================================== */
+/* ========================================================== */
+
+
+.footer-bottom-social {
+    position: relative;
+    width: 280px;
+    text-align: left;
+}
+.footer-bottom-social div {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.footer-bottom-useful, .footer-bottom-vehicles {
+    text-align: left;
+    width: 180px;
+    height: 171px;
+}
+
+.footer-bottom-useful a, .footer-bottom-vehicles a {
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+.footer-bottom-download {
+    width: 180px;
+    height: 171px;
+    text-align: left;
+}
+
+.footer-bottom-download button {
+    width: 171px;
+    height: 50px;
+    border: none;
+    background-color: black;
+    color: snow;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    margin-top: 24px;
+}
+.footer-bottom-download button span {
+    display: block;
+}
+.btn-name {
+    font-size: 10px;
 }
